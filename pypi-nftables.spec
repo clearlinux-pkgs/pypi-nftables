@@ -9,7 +9,7 @@
 #
 Name     : pypi-nftables
 Version  : 1.1.1
-Release  : 1
+Release  : 2
 URL      : https://www.netfilter.org/pub/nftables/nftables-1.1.1.tar.xz
 Source0  : https://www.netfilter.org/pub/nftables/nftables-1.1.1.tar.xz
 Source1  : https://www.netfilter.org/pub/nftables/nftables-1.1.1.tar.xz.sig
