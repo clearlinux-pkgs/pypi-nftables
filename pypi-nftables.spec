@@ -9,7 +9,7 @@
 #
 Name     : pypi-nftables
 Version  : 1.1.1
-Release  : 3
+Release  : 4
 URL      : https://www.netfilter.org/pub/nftables/nftables-1.1.1.tar.xz
 Source0  : https://www.netfilter.org/pub/nftables/nftables-1.1.1.tar.xz
 Source1  : https://www.netfilter.org/pub/nftables/nftables-1.1.1.tar.xz.sig
@@ -52,6 +52,7 @@ Summary: python3 components for the pypi-nftables package.
 Group: Default
 Requires: python3-core
 Requires: nftables
+Provides: pypi(nftables)
 
 %description python3
 python3 components for the pypi-nftables package.
@@ -71,7 +72,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1730746195
+export SOURCE_DATE_EPOCH=1730746318
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
